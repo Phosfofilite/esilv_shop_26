@@ -19,8 +19,8 @@ class ListProductPage extends StatelessWidget {
           IconButton(
             onPressed: () => context.go('/cart'),
             icon: Badge.count(
-              child: Icon(Icons.shopping_cart_outlined),
               count: context.watch<Cart>().products.length,
+              child: Icon(Icons.shopping_cart_outlined),
             ),
           ),
         ],

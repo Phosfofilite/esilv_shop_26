@@ -23,12 +23,12 @@ class Product {
 
   Map<String, dynamic> toMap() {
     return {
-      'id': this.id,
-      'title': this.title,
-      'description': this.description,
-      'category': this.category,
-      'image': this.image,
-      'price': this.price,
+      'id': id,
+      'title': title,
+      'description': description,
+      'category': category,
+      'image': image,
+      'price': price,
       'rating': {'rate': rating, 'count': ratingCount},
     };
   }
